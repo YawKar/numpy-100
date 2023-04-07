@@ -3,5 +3,5 @@
 import numpy as np
 
 a = np.empty((6, 7, 8), dtype=np.int32)
-elementIndex = 100
-print(np.unravel_index(100, (6, 7, 8)))
+elementIndex = 99
+print(np.unravel_index(elementIndex, (6, 7, 8)))
